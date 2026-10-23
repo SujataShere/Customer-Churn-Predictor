@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+data/*.csv
+models/*.joblib
+reports/*.json
+reports/*.csv
+!data/.gitkeep
+!models/.gitkeep
+!reports/.gitkeep
