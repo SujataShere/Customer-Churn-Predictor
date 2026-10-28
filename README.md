@@ -60,6 +60,7 @@ This is one sample prediction from the provided application output. Results can 
 Keep only the libraries that are actually used by your source code in the final tech-stack list.
 
 📁 Suggested Project Structure
+
 Customer-Churn-Prediction/
 ├── app.py
 ├── churn_model.pkl
