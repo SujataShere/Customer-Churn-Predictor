@@ -70,6 +70,7 @@ Your actual project may have additional files, such as a training notebook, data
 
 
 📊 Model Evaluation
+
 The final model is selected based on the highest F1 score, according to the application interface.
 
 For a complete ML project README, add the measured values from your actual model evaluation:
@@ -82,6 +83,7 @@ For a complete ML project README, add the measured values from your actual model
 Do not add estimated or invented scores; report values produced by your training/evaluation code.
 
 🌟 Future Improvements
+
 - Display model comparison results in the application
 - Add confusion matrix and classification report visualizations
 - Explain the main factors influencing each prediction
