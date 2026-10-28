@@ -1,13 +1,15 @@
 # Customer-Churn-Predictor
-📊 Customer Churn Prediction System
+
 A Machine Learning web application built with Python and Streamlit to predict whether a customer is likely to leave a service (churn) based on customer profile, location, subscribed services, and billing information.
 
 🚀 Project Overview
+
 Customer churn prediction helps businesses identify customers who may stop using their services. This project compares multiple classification models and selects the final model based on the highest F1 score.
 
 The Streamlit app allows users to enter customer details, run a prediction, and view the predicted churn risk and churn probability.
 
 ✨ Features
+
 - Interactive Streamlit interface for entering customer information
 - Customer profile, location, service, and billing details
 - Multiple machine learning classification models
@@ -17,15 +19,18 @@ The Streamlit app allows users to enter customer details, run a prediction, and 
 - Expandable section to inspect model input data
   
 🧠 Machine Learning Models
+
 The project interface lists these models:
 - Logistic Regression
 - Decision Tree
 - Random Forest
 - AdaBoost
 - Gradient Boosting
+- 
 The final model is selected using the F1 score. The exact selected algorithm and model evaluation scores should be documented here once confirmed from the training code or evaluation results.
 
 🧾 Input Features
+
 The application uses 28 features. The interface groups customer information into the following sections:
 - Customer Information: gender, dependents, number of dependents, senior-citizen status, partner, and tenure
 - Customer Location: country, city, state, ZIP code, latitude, longitude, and latitude/longitude
@@ -33,6 +38,7 @@ The application uses 28 features. The interface groups customer information into
 - Billing Information: contract, paperless billing, payment method, monthly charges, total charges, and customer lifetime value (CLTV)
 - 
 📸 Sample Prediction
+
 Example shown in the application output:
 Result	Value
 Prediction	No Churn
@@ -43,7 +49,9 @@ Monthly Charges	70.00
 Total Charges	840.00
 
 This is one sample prediction from the provided application output. Results can vary based on the entered customer details.
+
 🛠️ Tech Stack
+
 - Language: Python
 - Web App: Streamlit
 - Machine Learning: scikit-learn (if used in the training pipeline)
